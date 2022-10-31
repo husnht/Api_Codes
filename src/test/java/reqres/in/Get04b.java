@@ -20,7 +20,6 @@ And
    Among the data there should be someone whose firstname is "Almedin" and lastname is "Alikadic"
 
  */
-
     @Test
     public void test04() {
    //Set the url
