@@ -11,7 +11,7 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class AutoEx_01 extends AutomationExBaseUrl {
+public class AutoEx_08 extends AutomationExBaseUrl {
     /*
  Given
      https://automationexercise.com/api/productsList
@@ -40,6 +40,7 @@ public class AutoEx_01 extends AutomationExBaseUrl {
 
         //4.Do Assertion
         SoftAssert softAssert = new SoftAssert();
+
         softAssert.assertEquals(response.getStatusCode(),200, "status kod hatali");
         softAssert.assertEquals(response.getContentType(),"text/html; charset=utf-8", "content type hatali");
         softAssert.assertEquals(response.getStatusLine(), "HTTP/1.1 200 OK", "status line hatali");
