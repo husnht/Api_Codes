@@ -1,6 +1,6 @@
 package AutomationExercise;
 
-import base_url.AutomationExBaseUrl;
+import base_urls.AutomationExBaseUrl;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Test;
